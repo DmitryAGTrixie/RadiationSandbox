@@ -1,0 +1,16 @@
+{
+    "name": "Radiation.Simulation",
+    "rootNamespace": "",
+    "references": [
+        "GUID:e5033f54e54470f4e80da4f380290241"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
