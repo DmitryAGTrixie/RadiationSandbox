@@ -2,7 +2,8 @@
     "name": "Radiation.Simulation",
     "rootNamespace": "",
     "references": [
-        "GUID:e5033f54e54470f4e80da4f380290241"
+        "GUID:e5033f54e54470f4e80da4f380290241",
+        "GUID:fe297e9871c6bc0479b0ed076ec90901"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
