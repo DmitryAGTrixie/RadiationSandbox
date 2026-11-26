@@ -1,18 +1,24 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+using Unity.Mathematics;
 
-public class Particle : MonoBehaviour
+namespace Radiation.Core.Particles
 {
-    // Start is called before the first frame update
-    void Start()
+    public enum ParticleState : byte
     {
-        
+        Alive = 0,
+        Absorbed = 1,
+        Escaped = 2,
+        Decayed = 3
     }
 
-    // Update is called once per frame
-    void Update()
+    public struct Particle
     {
-        
+        public float3 Position;
+        public float3 Velocity;
+        public float Energy;
+        public float Age;
+        public float Lifetime;
+        public ParticleState State;
+
+        public bool IsAlive => State == ParticleState.Alive;
     }
 }
